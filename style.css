@@ -1,14 +1,47 @@
-.jipaige{
-    background-color: yellowgreen;
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 10px;
-    height: 700px;
+bady{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(68, 184, 208);
+    color: green;
+    line-height: 1.6;
+    padding: 20px;
 }
-.chicken{
-    background-color: black;
-    color:rgb(0, 166, 255);
-    font-size: 70px;
-    grid-column-start: 1;
-    grid-column-end: 3;
+.guess{
+    background-color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1)
+}
+.wings-h1{
+    font-size: 2.2rem;
+    color:#fff;
+    margin-bottom: 10px;
+}
+.recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.need{
+    margin-bottom: 30px;
+}
+.need-h2, .perp-h3, .cook-h4{
+    font-size: 1.6rem;
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+.ppp, .ccc{
+    padding-left: 20px;
+}
+.ppp li, .ccc li{
+    margin-bottom: 10px;
+}
+.ccc li::marker{
+    font-weight: bold;
+    color: #c45228;
 }
