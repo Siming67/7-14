@@ -1,13 +1,13 @@
 bady{
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(68, 184, 208);
-    color: green;
+    color: rgb(1, 64, 89);
     line-height: 1.6;
     padding: 20px;
 }
 .guess{
     background-color: #fff;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
     border-radius: 12px;
