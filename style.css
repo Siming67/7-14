@@ -1,0 +1,13 @@
+.jipaige{
+    background-color: yellowgreen;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    height: 1000px;
+}
+.chicken{
+    background-color: black;
+    font-size: 70px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
